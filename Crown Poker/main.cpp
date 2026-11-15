@@ -2,9 +2,16 @@
 
 int main() {
 
+	const int width = 1280;
+	const int height = 720;
+
+	InitWindow(720, 1280, "Crown Poker");
+
 	while (!WindowShouldClose())
 	{
-		InitWindow(720, 1200, "Crown Poker");
+		
+
+
 	}
 	return 0;
 }
